@@ -19,7 +19,7 @@
     clear: both;
 }
 
-nav ul {
+ul {
     list-style: none;
 }
 
@@ -36,6 +36,12 @@ a {
 
 .btn:hover {
     background-color: #2c7dff;
+}
+
+section h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
 
 /* structure */
@@ -57,6 +63,11 @@ header {
     height: 790px;
     background-color: #b4d0e7;
     margin-top: 90px;
+}
+
+main {
+    width: 65%;
+    margin: 200px auto;
 }
 
 /* header */
@@ -130,4 +141,33 @@ header li:hover {
 .fa-arrow-down {
     font-size: 40px;
     margin-top: 20px;
+}
+
+/* section 1 */
+section label {
+    margin-right: 15px;
+}
+
+.col {
+    height: 1500px;
+    width: 30%;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+}
+
+.mid-col {
+    margin: 30px 48px;
+}
+
+.col-header {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid lightgray;
+}
+
+.col * {
+    margin: 15px 15px;
 }
