@@ -45,6 +45,10 @@ section h2 {
     margin-bottom: 50px;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /* structure */
 body {
     position: relative;
@@ -72,9 +76,21 @@ main {
     margin: 200px auto;
 }
 
+.col {
+    height: 1200px;
+    width: 30%;
+    margin-top: 30px;
+}
+
+.mid-col {
+    margin: 30px 5%;    
+}
+
 .frame {
     margin: 130px 0px;
 }
+
+
 /* header */
 .logo {
     height: 28px;
@@ -153,15 +169,8 @@ section label {
     margin-right: 15px;
 }
 
-.col {
-    height: 1200px;
-    width: 30%;
-    margin-top: 30px;
-    border: 1px solid lightgray;
-}
-
-.mid-col {
-    margin: 30px 5%;    
+.col-border {
+      border: 1px solid lightgray;
 }
 
 .col-header {
@@ -266,3 +275,12 @@ section label {
 }
 
 /* section 4 */
+.operation-pic {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.op-description * {
+    margin: 30px 0px;
+    font-weight: 500;
+}
