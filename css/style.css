@@ -58,6 +58,7 @@ header {
     background-color: white;
     position: fixed;
     top: 0px;
+    border-bottom: 1px solid lightgray;
 }
 
 .jumbotron {
@@ -71,6 +72,9 @@ main {
     margin: 200px auto;
 }
 
+.frame {
+    margin: 130px 0px;
+}
 /* header */
 .logo {
     height: 28px;
@@ -208,7 +212,8 @@ section label {
 
 /* section 2 */
 .col-footer {
-    margin: 50px 0px;
+    margin-top: 50px;
+    margin-bottom: 180px;
     border: 1px solid lightgray;
 }
 
@@ -228,3 +233,36 @@ section label {
 }
 
 /* section 3 */
+.btn-partner {
+    background-color: white;
+    color: darkslategray;
+    margin: 15px 15px;
+    padding: 6px 18px;
+    text-decoration: none;
+    border: 1px solid darkslategray;
+}
+
+.btn-partner:hover {
+    color: white;
+    background-color: darkslategray;
+}
+
+.frame-content {
+    width: 40%;
+}
+
+.frame-img {
+    width: 55%;
+}
+
+.frame-content * {
+    margin: 40px 0px;
+    font-weight: 500;
+}
+
+.frame-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* section 4 */
