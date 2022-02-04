@@ -277,12 +277,15 @@ section label {
 /* section 4 */
 .operation-pic {
     width: 100%;
-    margin-bottom: 50px;
 }
 
 .op-description * {
     margin: 30px 0px;
     font-weight: 500;
+}
+
+.op-description {
+    margin-bottom: 130px;
 }
 
 /* section 5 */
