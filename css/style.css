@@ -33,6 +33,7 @@ header a {
     margin: 15px 15px;
     padding: 6px 18px;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .btn:hover {
@@ -52,7 +53,7 @@ section h2 {
 /* structure */
 body {
     position: relative;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;  
 }
 
 header {
@@ -148,7 +149,7 @@ header li:hover {
 #btn-jumbo {
     margin-left: 0px;
     display: block;
-    width: 230px;
+    width: 240px;
 }
 
 .content span {
@@ -167,6 +168,7 @@ header li:hover {
 /* section 1 */
 section label {
     margin-right: 15px;
+    font-weight: 600;
 }
 
 .col-border {
@@ -194,6 +196,7 @@ section label {
 
 .col ul li {
     margin: 40px auto;
+    font-weight: 600;
 }
 
 .col h3 {
@@ -266,7 +269,7 @@ section label {
 
 .frame-content * {
     margin: 40px 0px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .frame-content h3 {
@@ -281,7 +284,7 @@ section label {
 
 .op-description * {
     margin: 30px 0px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .op-description {
