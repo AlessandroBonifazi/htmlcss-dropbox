@@ -23,7 +23,7 @@ ul {
     list-style: none;
 }
 
-a {
+header a {
     text-decoration: none;
 }
 
@@ -32,6 +32,7 @@ a {
     color: white;
     margin: 15px 15px;
     padding: 6px 18px;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -140,7 +141,7 @@ header li:hover {
 
 .fa-arrow-down {
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* section 1 */
@@ -149,14 +150,14 @@ section label {
 }
 
 .col {
-    height: 1500px;
+    height: 1200px;
     width: 30%;
     margin-top: 30px;
     border: 1px solid lightgray;
 }
 
 .mid-col {
-    margin: 30px 48px;
+    margin: 30px 5%;    
 }
 
 .col-header {
@@ -168,6 +169,40 @@ section label {
     border-bottom: 1px solid lightgray;
 }
 
-.col * {
-    margin: 15px 15px;
+.col-main {
+    margin: 20px 30px;
 }
+
+.col-btn { 
+    text-align: center;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.col ul li {
+    margin: 40px auto;
+}
+
+.col h3 {
+    font-size: 25px;
+    font-weight: 700;   
+}
+
+.price {
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+.oppure {
+    padding: 35px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.col-main h4 {
+    margin-top: 80px;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
