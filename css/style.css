@@ -95,6 +95,16 @@ main {
     width: 100%;
 }
 
+.banner-footer {
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.banner-footer-focus {
+    width: 65%;
+    margin: auto;
+    padding: 130px 0px;
+}
 
 /* header */
 .logo-header {
@@ -389,3 +399,22 @@ section label {
     width: 50px;
     color: lightgrey;
 }
+
+/* sezione banner footer */
+.banner-footer h2 {
+    width: 50%;
+    display: inline-block;
+    margin: 0%;
+}
+
+#banner-footer-btn {
+    background-color: white;
+    color: black;
+}
+
+#banner-footer-btn:hover {
+    background-color: grey;
+    color: white;
+}
+
+/* sezione FAQ */
