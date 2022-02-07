@@ -350,8 +350,8 @@ section label {
 }
 
 .f-1 {
-    background-color: rgb(130, 196, 130);
-    border: 10px solid lightgreen;
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
 }
 
 .f-2 {
@@ -438,6 +438,10 @@ section label {
     display: none;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.arrow-faq {
+    cursor: pointer;
 }
 
 .arrow-faq:hover + .answer {
