@@ -64,6 +64,7 @@ header {
     position: fixed;
     top: 0px;
     border-bottom: 1px solid lightgray;
+    z-index: 100;
 }
 
 .jumbotron {
@@ -104,6 +105,11 @@ main {
     width: 65%;
     margin: auto;
     padding: 130px 0px;
+}
+
+.faq {
+    width: 65%;
+    margin: 100px auto;
 }
 
 /* header */
@@ -418,3 +424,22 @@ section label {
 }
 
 /* sezione FAQ */
+.faq h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.question {
+    font-weight: 700;
+    margin: 25px 500px 25px 0px;
+    display: inline-block;
+}
+
+.answer {
+    display: none;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.arrow-faq:hover + .answer {
+    display: block;
+}
