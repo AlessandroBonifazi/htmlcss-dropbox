@@ -74,7 +74,7 @@ header {
 
 main {
     width: 65%;
-    margin: 200px auto;
+    margin: 200px auto 50px auto;
 }
 
 .col {
@@ -87,13 +87,17 @@ main {
     margin: 30px 5%;    
 }
 
-.frame {
+.partner-container {
     margin: 130px 0px;
+}
+
+.banner-team {
+    width: 100%;
 }
 
 
 /* header */
-.logo {
+.logo-header {
     height: 28px;
     margin: 30px 50px;  
 }
@@ -259,20 +263,20 @@ section label {
     background-color: darkslategray;
 }
 
-.frame-content {
+.partner-container-content {
     width: 40%;
 }
 
-.frame-img {
+.partner-container-img {
     width: 55%;
 }
 
-.frame-content * {
+.partner-container-content * {
     margin: 40px 0px;
     font-weight: 600;
 }
 
-.frame-content h3 {
+.partner-container-content h3 {
     font-size: 30px;
     font-weight: 700;
 }
@@ -306,4 +310,82 @@ section label {
     color: rgb(60, 133, 243);
 }
 
-/* footer section 1 */
+/* footer section 1 banner-team*/
+.frame-wall {
+    height: 500px;
+    width: 500px;
+}
+
+.frame {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.f-1 {
+    background-color: rgb(130, 196, 130);
+    border: 10px solid lightgreen;
+}
+
+.f-2 {
+    background-color: #61082b;
+}
+
+.f-3 {
+    background-color: #0093ce;
+}
+
+.f-4 {
+    background-color: #ff1c1c;
+}
+
+.f-5 {
+    background-color: #d5001f;
+}
+
+.f-6 {
+    background-color: #b4d0e7;
+}
+
+.f-7 {
+    background-color: #0d2481;
+}
+
+.f-8 {
+    background-color: #ffd830;
+}
+
+.banner-content {
+    height: 500px;
+    width: calc(100% - 1000px);
+    margin: auto;
+    padding: 50px 40px;
+    display: inline-block;
+    background-color: #f5f5f5;
+}
+
+.banner-logo {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.banner-content p {
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+#banner-hr {
+    width: 50px;
+    color: lightgrey;
+}
