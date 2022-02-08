@@ -80,12 +80,12 @@ main {
 
 .col {
     min-height: 1200px;
-    width: calc(95% / 3);
+    width: calc(94% / 3);
     margin-top: 30px;
 }
 
 .mid-col {
-    margin: 30px 2.5%;    
+    margin: 30px 3%;    
 }
 
 .partner-container {
@@ -314,7 +314,7 @@ section label {
 /* section Teams */
 .teams-title {
     width: 53%;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .teams-title h2 {
@@ -326,7 +326,7 @@ section label {
     color: rgb(60, 133, 243);
 }
 
-/* footer section banner-team*/
+/* footer section banner-team */
 .frame-wall {
     height: 500px;
     width: 500px;
@@ -351,6 +351,9 @@ section label {
 
 .f-1 {
     background-color: #a2d39b;
+}
+
+.f-1:hover {
     border: 10px solid #d1e9cd;
 }
 
@@ -358,32 +361,60 @@ section label {
     background-color: #61082b;
 }
 
+.f-2:hover {
+    border: 10px solid #b08495;
+}
+
 .f-3 {
     background-color: #0093ce;
+}
+
+.f-3:hover {
+    border: 10px solid #80c9e7;
 }
 
 .f-4 {
     background-color: #ff1c1c;
 }
 
+.f-4:hover {
+    border: 10px solid #ff8e8e;
+}
+
 .f-5 {
     background-color: #d5001f;
+}
+
+.f-5:hover {
+    border: 10px solid #ff8e8e;
 }
 
 .f-6 {
     background-color: #b4d0e7;
 }
 
+.f-6:hover {
+    border: 10px solid #dae8f3;
+}
+
 .f-7 {
     background-color: #0d2481;
+}
+
+.f-7:hover {
+    border: 10px solid #8692c0;
 }
 
 .f-8 {
     background-color: #ffd830;
 }
 
+.f-8:hover {
+    border: 10px solid #ffec98;
+}
+
 .banner-content {
-    height: 500px;
+    min-height: 500px;
     width: calc(100% - 1000px);
     margin: auto;
     padding: 50px 40px;
@@ -447,4 +478,49 @@ section label {
 
 .arrow-faq:hover + .answer {
     display: block;
+}
+
+/* link-section */
+.link-section {
+    min-height: 600px;
+    background-color: black;
+    color: white;
+    padding: 0px 150px;
+}
+
+.link-section-container {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.link-section ul {
+    margin: 20px 60px;
+}
+
+.link-section li {
+    margin: 15px 0px;
+}
+
+.link-section li:hover {
+    text-decoration: underline;
+}
+
+.link-section li a{
+    text-decoration: none;
+    color: white;
+}
+
+.link-section-container h4 {
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+#link-hr {
+    width: 120px;
+    margin: 100px 0px 40px 60px;
+}
+
+.globe {
+    color: #c1c8ce;
+    margin-left: 60px;
 }
